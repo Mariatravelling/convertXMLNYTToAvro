@@ -1,0 +1,70 @@
+{"namespace":"avroSchemaFlattened", "name": "Article","type": "record", "fields": 
+	[
+		{"name": "abstract", "type":["string","null"]},
+		{"name": "leadParagraph", "type":["string","null"]},
+		{"name": "url", "type":["string","null"]},	
+		{"name": "titles",  "type":
+			["null",{ "type":"array", "items":
+					{ "name":"Title", "type":"record", "fields": 
+						[ 
+							{"name":"title", "type":["string","null"]}
+							]
+					}
+				}
+			]
+		},
+		{"name": "online_titles",  "type":
+			["null",{"type":"array","items":"Title"}]
+		},		
+		{"name": "dsk", "type":["string","null"]},
+		{"name": "alternateURL", "type":["string","null"]},
+		{"name": "onlineSection", "type":["string","null"]},
+		{"name": "printPageNumber", "type":["string","null"]},
+		{"name": "printSection", "type":["string","null"]},
+		{"name": "slug", "type":["string","null"]},
+		{"name": "columnNumber", "type":["string","null"]},
+		{"name": "banner", "type":["string","null"]},
+		{"name": "correctionDate", "type":["string","null"]},
+		{"name": "featurePage", "type":["string","null"]},
+		{"name": "columnName", "type":["string","null"]},
+		{"name": "seriesName", "type":["string","null"]},
+		{"name": "dayOfMonth", "type":["string","null"]},
+		{"name": "month", "type":["string","null"]},
+		{"name": "year", "type":["string","null"]},
+		{"name": "dayOfWeek", "type":["string","null"]},
+		{"name": "headline", "type":["string","null"]},
+		{"name": "content", "type": "string"}, 
+		{"name": "sentences",  "type":
+			["null",{"type":"array","items":
+				{ "name":"Sentence", "type":"record", "fields": 
+					[ 
+						{"name":"s_id","type":"int"}, 
+						{ "name":"span", "type": 
+							{ "type":"record", "name":"Span", "fields":
+								[ 
+									{"name":"start_index", "type":"int"}, 
+									{"name":"end_index", "type":"int"}
+								]
+							}
+						},
+						{"name": "tokens",  "type":
+							["null",{ "type":"array", "items":
+									{ "name":"Token", "type":"record", "fields": 
+										[ 
+											{"name":"pos","type":"string"},
+											{"name":"ner","type":"string"}, 
+											{ "name":"t_span", "type":"Span"}
+										]
+									}
+								}
+							]
+						}, 
+						{"name":"dp","type":["string","null"]},
+						{"name":"sg","type":["string","null"]}
+					]
+				}
+				}
+			]
+	}
+]
+}

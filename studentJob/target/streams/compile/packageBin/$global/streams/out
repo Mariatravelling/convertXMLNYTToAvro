@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0mPackaging /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/studentjob_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	parseJsonrse$AIDAFile.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/parseJsonrse$AIDAFile.class[0m
+[0m[[0mdebug[0m] [0m	test$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/test$.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro.class[0m
+[0m[[0mdebug[0m] [0m	test.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/test.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	parseJsonrse$AIDAFile$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/parseJsonrse$AIDAFile$.class[0m
+[0m[[0mdebug[0m] [0m	test$$anonfun$test$$walk$1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/test$$anonfun$test$$walk$1$1.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro$.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	parseJsonrse.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/parseJsonrse.class[0m
+[0m[[0mdebug[0m] [0m	readingAvro$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/readingAvro$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	parseJsonrse$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/wangzehui/IdeaProjects/studentJob/target/scala-2.10/classes/parseJsonrse$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
